@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "info": "Lorem Ipsum est simplement un texte factice",
+    "img": null
+  },
+  {
+    "id": 2,
+    "info": "3 Lorem Ipsum est simplement un texte factice",
+    "img": null
+  },
+  {
+    "id": 3,
+    "info": "textos zone de texte aperçu de l'innovation",
+    "img": "home4.jpg"
+  }
+]
