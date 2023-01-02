@@ -158,7 +158,7 @@ const Home=(props)=>{
         getterLatestNews();
     }
 
-    if(props.routeName==="/")
+    if(props.routeName==="/home")
     {
         langChange();
         props.changeRouteName()

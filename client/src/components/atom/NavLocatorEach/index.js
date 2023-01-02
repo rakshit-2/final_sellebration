@@ -64,10 +64,10 @@ const NavLocatorEach=(props)=>{
                         </div>
                         <div className="navlocatoreach__each__heading" style={{display:"flex",alignItem:"center",justifyContent:"space-around",width:"88%" ,cursor:"default"}}>
                         {props.icon.map((elel) => {
-                            const {id,info,link}=elel;
+                            const {id,img,link}=elel;
                             return (
                                 <>
-                                <a key={id} href={link}><FontAwesomeIcon icon={info} size="xs" color="white" style={{cursor:"pointer"}} /></a>
+                                <a key={id} target="_blank" href={link}><FontAwesomeIcon icon={img} size="xs" color="white" style={{cursor:"pointer"}} /></a>
                                 </>
                             );
                         })}

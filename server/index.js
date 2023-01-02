@@ -1,4 +1,6 @@
-require('dotenv').config();
+const Connect = require('./connect/db');
+const db_file=require('./connect/getENV');
+
 const express = require('express')
 const app = express()
 const bodyParser=require('body-parser');
@@ -9,9 +11,8 @@ app.use(cors());
 app.use(express.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 const fs=require('fs')
+const db=Connect.db;
 
-const mysql = require('mysql2')
-const db = mysql.createConnection(process.env.DATABASE_URL);
 // const set = require('./store/set.js');
 
 const AllGetter= require('./store/allGetter.json');
@@ -967,7 +968,11 @@ app.post('/contact-us/full-data',(req,res)=>{
   })
 })
 
-const port=process.env.PORT || 3001;
-app.listen(port,()=>{
-    console.log(`listning on port ${port}`);
+
+Connect.Connection().then(() => {
+  console.log("Database Connected Successfully");
+  app.listen(db_file.db_port, () => {
+    console.log(`Server started on port ${db_file.db_port}`);
+  });
 });
+

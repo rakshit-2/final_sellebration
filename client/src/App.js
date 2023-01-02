@@ -5,15 +5,13 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Axios from 'axios';
-import {useState,useEffect} from 'react';
+import {useState} from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
 
 
-import ApiLink from './components/assets/store/apiLink';
 import Home from './components/organism/home/index';
 import Bringchange from './components/organism/bringchange/index';
 import Businessbrand from './components/organism/businessbrand/index';
@@ -35,7 +33,6 @@ import Downloads from './components/organism/downloads';
 import Logo from './components/organism/logo';
 import OurProfile from './components/organism/ourProfile';
 import TandC from './components/organism/tandc';
-import Navbar from './components/organism/NavBar/index';
 import Landing from './components/organism/landing';
 import Privacy from './components/organism/privacypolicy'
 import Sitemap from './components/organism/sitemap';
@@ -44,8 +41,8 @@ const App=(props)=>{
 
 
   AOS.init({
-    offset: 20,
-    duration: 500,
+    offset: 200,
+    duration: 1000,
     easing: 'ease-in-sine',
   });
 

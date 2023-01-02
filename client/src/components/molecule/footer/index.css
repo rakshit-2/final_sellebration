@@ -63,6 +63,8 @@
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
+    color:white;
+    text-decoration: none;
 }
 .icon__test__col:hover{
     color:orange;

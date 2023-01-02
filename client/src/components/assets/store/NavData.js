@@ -62,11 +62,11 @@ const NavData=[
             {id:3,info:"Contact Us"}
         ],
         icon:[
-            {id:0,info:faTwitter,link:"https://twitter.com/i/flow/login"},
-            {id:1,info:faLinkedin,link:"https://in.linkedin.com/"},
-            {id:2,info:faInstagram,link:"https://www.instagram.com/?hl=en"},
-            {id:3,info:faFacebook,link:"https://www.facebook.com/login/"},
-            {id:4,info:faYoutube,link:"https://www.youtube.com/account"},
+            {id:0,img:faTwitter,link:"https://twitter.com/SellebrationLtd"},
+            {id:1,img:faLinkedin,link:"https://www.linkedin.com/company/sellebration-private-limited/"},
+            {id:2,img:faInstagram,link:"https://www.instagram.com/sellebrationltd/"},
+            {id:3,img:faFacebook,link:"https://www.facebook.com/SellebrationLtd"},
+            {id:4,img:faYoutube,link:"https://www.youtube.com/"},
         ]
     }
 ]

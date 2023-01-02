@@ -31,11 +31,11 @@ return (
                 </div>
                 <div className='footer__inner__top__right'>
                 {FooterData.top.right.map((item) => {
-                    const {id,img}=item;
+                    const {id,img,link}=item;
                     return(
-                        <div key={id} className='footer__inner__top__left__each2'>
+                        <a target="_blank" href={link} key={id} className='footer__inner__top__left__each2'>
                             <FontAwesomeIcon icon={img} size="lg" color="white" className='icon__test__col' style={{cursor:"pointer"}} />
-                        </div>
+                        </a>
                     )
                 })}
                 </div>

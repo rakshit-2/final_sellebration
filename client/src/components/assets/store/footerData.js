@@ -19,11 +19,11 @@ const FooterData={
         {id:8,data:"Contact Us",link:'/contactus'},
     ],
     right:[
-        {id:0,img:faTwitter},
-        {id:1,img:faLinkedin},
-        {id:2,img:faInstagram},
-        {id:3,img:faFacebook},
-        {id:4,img:faYoutube},
+        {id:0,img:faTwitter,link:"https://twitter.com/SellebrationLtd"},
+        {id:1,img:faLinkedin,link:"https://www.linkedin.com/company/sellebration-private-limited/"},
+        {id:2,img:faInstagram,link:"https://www.instagram.com/sellebrationltd/"},
+        {id:3,img:faFacebook,link:"https://www.facebook.com/SellebrationLtd"},
+        {id:4,img:faYoutube,link:"https://www.youtube.com/"},
     ]
  },
  middle:"2022 All Rights Reserved, Selebration Pvt. Ltd.",
