@@ -3,6 +3,29 @@
 {
     "english":
     {
+        "footer":
+        {
+          "top":{
+            "left":[
+                {"id":0,"data":"About Us","link":"/home"},
+                {"id":1,"data":"Businesses","link":"/bussinessbrand"},
+                {"id":2,"data":"Investors","link":"/investor"},
+                {"id":3,"data":"CSR","link":"/csr"},
+                {"id":4,"data":"Sustainability","link":"/noroute"},
+                {"id":5,"data":"Innovation","link":"/Innovation"},
+                {"id":6,"data":"Media","link":"/mediarelease"},
+                {"id":7,"data":"Careers","link":"/career"},
+                {"id":8,"data":"Contact Us","link":"/contactus"}
+            ]
+         },
+         "middle":"2022 All Rights Reserved, Selebration Pvt. Ltd.",
+         "bottom":
+         [
+            {"id":0,"data":"Terms and Conditions","link":"/contactus"},
+            {"id":1,"data":"Privacy Policy","link":"/privacypolicy"},
+            {"id":2,"data":"Site Map","link":"/sitemap"}
+         ]
+        },
         "landing":
         {
           "0":"PROCEED",
@@ -484,6 +507,76 @@
         ]
     },
     "spanish":{ 
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "Sobre nosotros",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "Negocios",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "inversores",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "RSE",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "Sustentabilidad",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "Innovación",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "Medios de comunicación",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "Carreras",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "Contáctenos",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022 Todos los derechos reservados, Selebration Pvt. Limitado.",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "Términos y condiciones",
+              "link": "/termsandcondition"
+            },
+            {
+              "id": 1,
+              "data": "Política de privacidad",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "Mapa del sitio",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":
         {
           "0":"CONTINUAR",
@@ -786,6 +879,76 @@
           ]
     },
     "french":{
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "À propos de nous",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "Entreprises",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "Investisseurs",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "RSE",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "Durabilité",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "Innovation",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "Médias",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "Carrières",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "Nous contacter",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022 Tous droits réservés, Selebration Pvt. Ltd.",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "Termes et conditions",
+              "link": "/termsandcondition"
+            },
+            {
+              "id": 1,
+              "data": "Politique de confidentialité",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "Plan du site",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":{
           "0":"PROCÉDER",
           "1":"2022 Tous droits réservés"
@@ -1087,6 +1250,76 @@
           ]
     },
     "chinese":{
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "关于我们",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "企业",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "投资者",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "企业社会责任",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "可持续性",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "创新",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "媒体",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "招贤纳士",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "联系我们",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022 保留所有权利，Selebration Pvt。有限公司",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "条款和条件",
+              "link": "/termsandcondition"
+            },
+            {
+              "id": 1,
+              "data": "隐私政策",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "站点地图",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":{
           "0":"继续",
           "1":"2022 版权所有"
@@ -1387,6 +1620,76 @@
         ]
     },
     "russian":{
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "О нас",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "Предприятия",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "Инвесторы",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "КСО",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "устойчивость",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "Инновации",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "СМИ",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "Карьера",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "Связаться с нами",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022 Все права защищены, Selebration Pvt. ООО",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "Условия и положения",
+              "link": "/termsandcondition"
+            },
+            {
+              "id": 1,
+              "data": "Политика конфиденциальности",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "Карта сайта",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":{
           "0":"ПРОДОЛЖИТЬ",
           "1":"2022 Все права защищены"
@@ -1688,6 +1991,76 @@
           ]
     },
     "german":{
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "Über uns",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "Unternehmen",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "Investoren",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "CSR",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "Nachhaltigkeit",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "Innovation",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "Medien",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "Karriere",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "Kontaktiere uns",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022 Alle Rechte vorbehalten, Selebration Pvt. GmbH.",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "Geschäftsbedingungen",
+              "link": "/termsandcondition"
+            },
+            {
+              "id": 1,
+              "data": "Datenschutz-Bestimmungen",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "Seitenverzeichnis",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":{
           "0":"VERLAUFEN",
           "1":"2022 Alle Rechte vorbehalten"
@@ -1989,6 +2362,76 @@
           ]
     },
     "portuguese":{
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "Sobre nós",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "empresas",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "investidores",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "CSR",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "Sustentabilidade",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "Inovação",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "meios de comunicação",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "Carreiras",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "Contate-nos",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022 Todos os direitos reservados, Selebration Pvt. Ltda.",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "Termos e Condições",
+              "link": "/termsandcondition"
+            },
+            {
+              "id": 1,
+              "data": "Política de Privacidade",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "Mapa do site",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":{
           "0":"CONTINUAR",
           "1":"2022 Todos os direitos reservados"
@@ -2290,6 +2733,76 @@
           ]
     },
     "japnese":{
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "私たちに関しては",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "ビジネス",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "投資家",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "CSR",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "持続可能性",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "革新",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "メディア",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "キャリア",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "お問い合わせ",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022年無断複写・転載を禁じます, Selebration Pvt.株式会社",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "規約と条件",
+              "link": "/termsandcondition"
+            },
+            {
+              "id": 1,
+              "data": "プライバシーポリシー",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "サイトマップ",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":{
           "0":"続行",
           "1":"2022 無断複写・転載を禁じます"
@@ -2591,6 +3104,76 @@
           ]
     },
     "hindi":{
+        "footer":
+        {
+          "top": {
+            "left": [
+              {
+                "id": 0,
+                "data": "हमारे बारे में",
+                "link": "/home"
+              },
+              {
+                "id": 1,
+                "data": "व्यवसायों",
+                "link": "/bussinessbrand"
+              },
+              {
+                "id": 2,
+                "data": "निवेशकों",
+                "link": "/investor"
+              },
+              {
+                "id": 3,
+                "data": "सीएसआर",
+                "link": "/csr"
+              },
+              {
+                "id": 4,
+                "data": "वहनीयता",
+                "link": "/noroute"
+              },
+              {
+                "id": 5,
+                "data": "नवाचार",
+                "link": "/Innovation"
+              },
+              {
+                "id": 6,
+                "data": "मीडिया",
+                "link": "/mediarelease"
+              },
+              {
+                "id": 7,
+                "data": "करियर",
+                "link": "/career"
+              },
+              {
+                "id": 8,
+                "data": "संपर्क करें",
+                "link": "/contactus"
+              }
+            ]
+          },
+          "middle": "2022 सर्वाधिकार सुरक्षित, सेलिब्रेशन प्रा. लिमिटेड",
+          "bottom": [
+            {
+              "id": 0,
+              "data": "नियम और शर्तें",
+              "link": "/contactus"
+            },
+            {
+              "id": 1,
+              "data": "गोपनीयता नीति",
+              "link": "/privacypolicy"
+            },
+            {
+              "id": 2,
+              "data": "साइट मानचित्र",
+              "link": "/sitemap"
+            }
+          ]
+        },
         "landing":{
           "0":"आगे बढ़ना",
           "1":"2022 सर्वाधिकार सुरक्षित"

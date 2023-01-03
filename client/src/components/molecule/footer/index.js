@@ -1,8 +1,9 @@
 import './index.css';
 import { useNavigate } from 'react-router-dom';
 import FooterData from './../../assets/store/footerData';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
+import staticModel from './../../assets/store/staticModel.json';
 
 const Footer=(props)=>{
     const navigate = useNavigate();
@@ -20,7 +21,7 @@ return (
         <div className='footer__inner'>
             <div className='footer__inner__top'>
                 <div className='footer__inner__top__left'>
-                {FooterData.top.left.map((item) => {
+                {staticModel[props.lang].footer.top.left.map((item) => {
                     const {id,data,link}=item;
                     return(
                         <div key={id} className='footer__inner__top__left__each' onClick={()=>{footerLinkClicked(link)}}>
@@ -41,10 +42,10 @@ return (
                 </div>
             </div>
             <div className='footer__inner__mid'>
-            <FontAwesomeIcon icon={faCopyright} size="lg" color="white" style={{cursor:"pointer"}} />{'\u00A0'}{FooterData.middle}
+            <FontAwesomeIcon icon={faCopyright} size="lg" color="white" style={{cursor:"pointer"}} />{'\u00A0'}{staticModel[props.lang].footer.middle}
             </div>
             <div className="footer__inner__bottom">
-                {FooterData.bottom.map((item) => {
+                {staticModel[props.lang].footer.bottom.map((item) => {
                     const {id,data,link}=item;
                     return(
                         <div key={id} className='footer__inner__top__left__each3' onClick={()=>{navigate(link)}}>                           

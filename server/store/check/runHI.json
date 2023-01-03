@@ -1,1 +1,69 @@
-{}
+{
+  "top": {
+    "left": [
+      {
+        "id": 0,
+        "data": "हमारे बारे में",
+        "link": "/home"
+      },
+      {
+        "id": 1,
+        "data": "व्यवसायों",
+        "link": "/bussinessbrand"
+      },
+      {
+        "id": 2,
+        "data": "निवेशकों",
+        "link": "/investor"
+      },
+      {
+        "id": 3,
+        "data": "सीएसआर",
+        "link": "/csr"
+      },
+      {
+        "id": 4,
+        "data": "वहनीयता",
+        "link": "/noroute"
+      },
+      {
+        "id": 5,
+        "data": "नवाचार",
+        "link": "/Innovation"
+      },
+      {
+        "id": 6,
+        "data": "मीडिया",
+        "link": "/mediarelease"
+      },
+      {
+        "id": 7,
+        "data": "करियर",
+        "link": "/career"
+      },
+      {
+        "id": 8,
+        "data": "संपर्क करें",
+        "link": "/contactus"
+      }
+    ]
+  },
+  "middle": "2022 सर्वाधिकार सुरक्षित, सेलिब्रेशन प्रा. लिमिटेड",
+  "bottom": [
+    {
+      "id": 0,
+      "data": "नियम और शर्तें",
+      "link": "/contactus"
+    },
+    {
+      "id": 1,
+      "data": "गोपनीयता नीति",
+      "link": "/privacypolicy"
+    },
+    {
+      "id": 2,
+      "data": "साइट मानचित्र",
+      "link": "/sitemap"
+    }
+  ]
+}

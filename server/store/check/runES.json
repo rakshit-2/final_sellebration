@@ -1,1 +1,96 @@
-{}
+{
+  "top": {
+    "left": [
+      {
+        "id": 0,
+        "data": "Sobre nosotros",
+        "link": "/casa"
+      },
+      {
+        "id": 1,
+        "data": "Negocios",
+        "link": "/marca comercial"
+      },
+      {
+        "id": 2,
+        "data": "inversores",
+        "link": "/inversor"
+      },
+      {
+        "id": 3,
+        "data": "RSE",
+        "link": "/csr"
+      },
+      {
+        "id": 4,
+        "data": "Sustentabilidad",
+        "link": "/ninguna ruta"
+      },
+      {
+        "id": 5,
+        "data": "Innovación",
+        "link": "/Innovación"
+      },
+      {
+        "id": 6,
+        "data": "Medios de comunicación",
+        "link": "/comunicado de prensa"
+      },
+      {
+        "id": 7,
+        "data": "Carreras",
+        "link": "/carrera"
+      },
+      {
+        "id": 8,
+        "data": "Contáctenos",
+        "link": "/ contacto"
+      }
+    ],
+    "right": [
+      {
+        "id": 0,
+        "img": "Twitter",
+        "link": "https://twitter.com/SellebrationLtd"
+      },
+      {
+        "id": 1,
+        "img": "Gracias LinkedIn",
+        "link": "https://www.linkedin.com/company/sellebration-private-limited/"
+      },
+      {
+        "id": 2,
+        "img": "faInstagram",
+        "link": "https://www.instagram.com/sellebrationltd/"
+      },
+      {
+        "id": 3,
+        "img": "caraFacebook",
+        "link": "https://www.facebook.com/SellebrationLtd"
+      },
+      {
+        "id": 4,
+        "img": "faYoutube",
+        "link": "https://www.youtube.com/"
+      }
+    ]
+  },
+  "middle": "2022 Todos los derechos reservados, Selebration Pvt. Limitado.",
+  "bottom": [
+    {
+      "id": 0,
+      "data": "Términos y condiciones",
+      "link": "/términos y Condiciones"
+    },
+    {
+      "id": 1,
+      "data": "Política de privacidad",
+      "link": "/política de privacidad"
+    },
+    {
+      "id": 2,
+      "data": "Mapa del sitio",
+      "link": "/mapa del sitio"
+    }
+  ]
+}
