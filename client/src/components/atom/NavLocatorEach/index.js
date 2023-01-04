@@ -310,7 +310,8 @@ const NavLocatorEach=(props)=>{
             }
             else
             {
-                if(info==="CSR Policy")
+                if(info==="CSR Policy" || info==="सीएसआर नीति" || info==="Politique RSE" || info==="CSR方針" || info==="Política de RSE" || info==="Политика КСО"
+                    || info==="Política de RSC" || info==="CSR-Richtlinie" || info==="企业社会责任政策")
                 {
                     return (
                         <>
@@ -318,7 +319,9 @@ const NavLocatorEach=(props)=>{
                         </>
                     );
                 }
-                else if(info==="Stories of Hope")
+                else if(info==="Stories of Hope" || info==="希望的故事" || info==="Geschichten der Hoffnung" || info==="Historias de esperanza" || info==="Histoires d'espoir" 
+                || info==="आशा की कहानियाँ"
+                || info==="希望の物語" || info==="histórias de esperança" || info==="Истории надежды")
                 {
                     return (
                         <>
@@ -326,7 +329,10 @@ const NavLocatorEach=(props)=>{
                         </>
                     );
                 }
-                else if(info==="Our Strategy")
+                else if(info==="Our Strategy" || info==="我们的战略" || info==="Unsere Strategie" || info==="Nuestra estrategia" || info==="Notre stratégie" 
+                || info==="हमारी रणनीति"
+                || info==="私たちの戦略" || info==="Nossa Estratégia" || info==="Наша стратегия")
+                
                 {
                     return (
                         <>
