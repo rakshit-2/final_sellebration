@@ -1,69 +1,18 @@
-{
-  "top": {
-    "left": [
-      {
-        "id": 0,
-        "data": "Über uns",
-        "link": "/home"
-      },
-      {
-        "id": 1,
-        "data": "Unternehmen",
-        "link": "/bussinessbrand"
-      },
-      {
-        "id": 2,
-        "data": "Investoren",
-        "link": "/investor"
-      },
-      {
-        "id": 3,
-        "data": "CSR",
-        "link": "/csr"
-      },
-      {
-        "id": 4,
-        "data": "Nachhaltigkeit",
-        "link": "/noroute"
-      },
-      {
-        "id": 5,
-        "data": "Innovation",
-        "link": "/Innovation"
-      },
-      {
-        "id": 6,
-        "data": "Medien",
-        "link": "/mediarelease"
-      },
-      {
-        "id": 7,
-        "data": "Karriere",
-        "link": "/career"
-      },
-      {
-        "id": 8,
-        "data": "Kontaktiere uns",
-        "link": "/contactus"
-      }
-    ]
+[
+  {
+    "id": 0,
+    "name": "Empfohlen"
   },
-  "middle": "2022 Alle Rechte vorbehalten, Selebration Pvt. GmbH.",
-  "bottom": [
-    {
-      "id": 0,
-      "data": "Geschäftsbedingungen",
-      "link": "/termsandcondition"
-    },
-    {
-      "id": 1,
-      "data": "Datenschutz-Bestimmungen",
-      "link": "/privacypolicy"
-    },
-    {
-      "id": 2,
-      "data": "Seitenverzeichnis",
-      "link": "/sitemap"
-    }
-  ]
-}
+  {
+    "id": 1,
+    "name": "Führung"
+  },
+  {
+    "id": 2,
+    "name": "CSR"
+  },
+  {
+    "id": 3,
+    "name": "Nachhaltigkeit"
+  }
+]

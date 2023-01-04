@@ -1,69 +1,18 @@
-{
-  "top": {
-    "left": [
-      {
-        "id": 0,
-        "data": "私たちに関しては",
-        "link": "/home"
-      },
-      {
-        "id": 1,
-        "data": "ビジネス",
-        "link": "/bussinessbrand"
-      },
-      {
-        "id": 2,
-        "data": "投資家",
-        "link": "/investor"
-      },
-      {
-        "id": 3,
-        "data": "CSR",
-        "link": "/csr"
-      },
-      {
-        "id": 4,
-        "data": "持続可能性",
-        "link": "/noroute"
-      },
-      {
-        "id": 5,
-        "data": "革新",
-        "link": "/Innovation"
-      },
-      {
-        "id": 6,
-        "data": "メディア",
-        "link": "/mediarelease"
-      },
-      {
-        "id": 7,
-        "data": "キャリア",
-        "link": "/career"
-      },
-      {
-        "id": 8,
-        "data": "お問い合わせ",
-        "link": "/contactus"
-      }
-    ]
+[
+  {
+    "id": 0,
+    "name": "おすすめされた"
   },
-  "middle": "2022年無断複写・転載を禁じます, Selebration Pvt.株式会社",
-  "bottom": [
-    {
-      "id": 0,
-      "data": "規約と条件",
-      "link": "/termsandcondition"
-    },
-    {
-      "id": 1,
-      "data": "プライバシーポリシー",
-      "link": "/privacypolicy"
-    },
-    {
-      "id": 2,
-      "data": "サイトマップ",
-      "link": "/sitemap"
-    }
-  ]
-}
+  {
+    "id": 1,
+    "name": "リーダーシップ"
+  },
+  {
+    "id": 2,
+    "name": "CSR"
+  },
+  {
+    "id": 3,
+    "name": "持続可能性"
+  }
+]

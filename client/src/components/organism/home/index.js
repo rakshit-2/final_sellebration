@@ -10,7 +10,7 @@ import ApiLink from './../../assets/store/apiLink';
 import Carousel from "react-multi-carousel";
 import "./../../../../node_modules/react-multi-carousel/lib/styles.css";
 import map from './../../assets/image/home_img/map1.svg';
-import HomePanelData from './../../assets/store/homepanelData';
+// import HomePanelData from './../../assets/store/homepanelData';
 import HomeCard1 from '../../atom/homeCard1';
 import HomeCard2 from './../../atom/homeCard2/index';
 import twitter from './../../assets/image/home_img/twitter.svg';
@@ -63,20 +63,20 @@ const Home=(props)=>{
             language:ele
         }
         }).then((res)=>{
-        if(i==0)
+        if(i===0)
         {
             setRecommended(res.data);
             setLoadingOurStories(false);
         }
-        else if(i==2)
+        else if(i===2)
         {
             setCsr(res.data);
         }
-        else if(i==1)
+        else if(i===1)
         {
             setLeadership(res.data);
         }
-        else if(i==3)
+        else if(i===3)
         {
             setSustainability(res.data);
         }
@@ -93,7 +93,6 @@ const Home=(props)=>{
         }
     }
     useEffect(() => {
-        
        getSection1();
     }, []);
 
@@ -171,7 +170,7 @@ const Home=(props)=>{
             <Navbar navDisplay={props.navDisplay} openNav={props.openNav}  closeNav={props.closeNav}  changeLang={props.changeLang} lang={props.lang} name={location.pathname} viewLang={props.viewLang}/>
             <div className="home__inner__section1">
                 <div className="home__inner__section1__img__outer">
-                    <img src={map} className="home__inner__section1__img"/>
+                    <img src={map} className="home__inner__section1__img" alt="map"/>
                 </div>
             </div>
                 <div className="home__inner__inner">
@@ -183,7 +182,7 @@ const Home=(props)=>{
                         <div className="home__inner__section2__panel">
                             <div className="home__inner__section2__panel__left">
                                 {
-                                    HomePanelData.map((item) => {
+                                    staticModale[props.lang].HomepanelData.map((item) => {
                                         const {id,name}=item;
                                         if(id===clickedPanel)
                                         {
@@ -304,7 +303,7 @@ const Home=(props)=>{
                     {/* section 4 */}
                     <div className='home__inner__section4'>
                         <div className='home__inner__section4__left' data-aos="fade-right">
-                            <img src={twitter} className="home__inner__section4__img"/>
+                            <img src={twitter} className="home__inner__section4__img"  alt="twitter"/>
                             <div className='home__inner__section4__left__out'>
                                 {HomeNewsData.map((ele) => {
                                     const {id,time,info}=ele;
@@ -317,7 +316,7 @@ const Home=(props)=>{
                             </div>
                         </div>
                         <div className='home__inner__section4__left' data-aos="fade-left">
-                            <img src={facebook} className="home__inner__section4__img"/>
+                            <img src={facebook} className="home__inner__section4__img"  alt="facebook"/>
                             <div className='home__inner__section4__left__out'>
                                 {HomeNewsData.map((ele) => {
                                     const {id,time,info}=ele;

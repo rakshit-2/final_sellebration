@@ -1,96 +1,18 @@
-{
-  "top": {
-    "left": [
-      {
-        "id": 0,
-        "data": "À propos de nous",
-        "link": "/domicile"
-      },
-      {
-        "id": 1,
-        "data": "Entreprises",
-        "link": "/marque d'entreprise"
-      },
-      {
-        "id": 2,
-        "data": "Investisseurs",
-        "link": "/investisseur"
-      },
-      {
-        "id": 3,
-        "data": "RSE",
-        "link": "/csr"
-      },
-      {
-        "id": 4,
-        "data": "Durabilité",
-        "link": "/noroute"
-      },
-      {
-        "id": 5,
-        "data": "Innovation",
-        "link": "/Innovation"
-      },
-      {
-        "id": 6,
-        "data": "Médias",
-        "link": "/mediarelease"
-      },
-      {
-        "id": 7,
-        "data": "Carrières",
-        "link": "/carrière"
-      },
-      {
-        "id": 8,
-        "data": "Nous contacter",
-        "link": "/ Contactez"
-      }
-    ],
-    "right": [
-      {
-        "id": 0,
-        "img": "faTwitter",
-        "link": "https://twitter.com/SellebrationLtd"
-      },
-      {
-        "id": 1,
-        "img": "Merci LinkedIn",
-        "link": "https://www.linkedin.com/company/sellebration-private-limited/"
-      },
-      {
-        "id": 2,
-        "img": "faInstagram",
-        "link": "https://www.instagram.com/sellebrationltd/"
-      },
-      {
-        "id": 3,
-        "img": "faFacebook",
-        "link": "https://www.facebook.com/SellebrationLtd"
-      },
-      {
-        "id": 4,
-        "img": "faYoutube",
-        "link": "https://www.youtube.com/"
-      }
-    ]
+[
+  {
+    "id": 0,
+    "name": "Recommandé"
   },
-  "middle": "2022 Tous droits réservés, Selebration Pvt. Ltd.",
-  "bottom": [
-    {
-      "id": 0,
-      "data": "Termes et conditions",
-      "link": "/termes et conditions"
-    },
-    {
-      "id": 1,
-      "data": "Politique de confidentialité",
-      "link": "/politique de confidentialité"
-    },
-    {
-      "id": 2,
-      "data": "Plan du site",
-      "link": "/plan du site"
-    }
-  ]
-}
+  {
+    "id": 1,
+    "name": "Leadership"
+  },
+  {
+    "id": 2,
+    "name": "RSE"
+  },
+  {
+    "id": 3,
+    "name": "Durabilité"
+  }
+]

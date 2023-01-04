@@ -1,69 +1,18 @@
-{
-  "top": {
-    "left": [
-      {
-        "id": 0,
-        "data": "О нас",
-        "link": "/home"
-      },
-      {
-        "id": 1,
-        "data": "Предприятия",
-        "link": "/bussinessbrand"
-      },
-      {
-        "id": 2,
-        "data": "Инвесторы",
-        "link": "/investor"
-      },
-      {
-        "id": 3,
-        "data": "КСО",
-        "link": "/csr"
-      },
-      {
-        "id": 4,
-        "data": "устойчивость",
-        "link": "/noroute"
-      },
-      {
-        "id": 5,
-        "data": "Инновации",
-        "link": "/Innovation"
-      },
-      {
-        "id": 6,
-        "data": "СМИ",
-        "link": "/mediarelease"
-      },
-      {
-        "id": 7,
-        "data": "Карьера",
-        "link": "/career"
-      },
-      {
-        "id": 8,
-        "data": "Связаться с нами",
-        "link": "/contactus"
-      }
-    ]
+[
+  {
+    "id": 0,
+    "name": "рекомендуемые"
   },
-  "middle": "2022 Все права защищены, Selebration Pvt. ООО",
-  "bottom": [
-    {
-      "id": 0,
-      "data": "Условия и положения",
-      "link": "/termsandcondition"
-    },
-    {
-      "id": 1,
-      "data": "Политика конфиденциальности",
-      "link": "/privacypolicy"
-    },
-    {
-      "id": 2,
-      "data": "Карта сайта",
-      "link": "/sitemap"
-    }
-  ]
-}
+  {
+    "id": 1,
+    "name": "Лидерство"
+  },
+  {
+    "id": 2,
+    "name": "КСО"
+  },
+  {
+    "id": 3,
+    "name": "устойчивость"
+  }
+]

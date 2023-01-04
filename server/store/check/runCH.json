@@ -1,69 +1,18 @@
-{
-  "top": {
-    "left": [
-      {
-        "id": 0,
-        "data": "关于我们",
-        "link": "/home"
-      },
-      {
-        "id": 1,
-        "data": "企业",
-        "link": "/bussinessbrand"
-      },
-      {
-        "id": 2,
-        "data": "投资者",
-        "link": "/investor"
-      },
-      {
-        "id": 3,
-        "data": "企业社会责任",
-        "link": "/csr"
-      },
-      {
-        "id": 4,
-        "data": "可持续性",
-        "link": "/noroute"
-      },
-      {
-        "id": 5,
-        "data": "创新",
-        "link": "/Innovation"
-      },
-      {
-        "id": 6,
-        "data": "媒体",
-        "link": "/mediarelease"
-      },
-      {
-        "id": 7,
-        "data": "招贤纳士",
-        "link": "/career"
-      },
-      {
-        "id": 8,
-        "data": "联系我们",
-        "link": "/contactus"
-      }
-    ]
+[
+  {
+    "id": 0,
+    "name": "推荐的"
   },
-  "middle": "2022 保留所有权利，Selebration Pvt。有限公司",
-  "bottom": [
-    {
-      "id": 0,
-      "data": "条款和条件",
-      "link": "/termsandcondition"
-    },
-    {
-      "id": 1,
-      "data": "隐私政策",
-      "link": "/privacypolicy"
-    },
-    {
-      "id": 2,
-      "data": "站点地图",
-      "link": "/sitemap"
-    }
-  ]
-}
+  {
+    "id": 1,
+    "name": "领导"
+  },
+  {
+    "id": 2,
+    "name": "企业社会责任"
+  },
+  {
+    "id": 3,
+    "name": "可持续性"
+  }
+]

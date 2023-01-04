@@ -185,6 +185,12 @@
           }
           
         ],
+        "HomepanelData":[
+          {"id":0,"name":"Recommended"},
+          {"id":1,"name":"Leadership"},
+          {"id":2,"name":"CSR"},
+          {"id":3,"name":"Sustainability"}
+        ],
         "home":
         {
            "0":"Our Stories",
@@ -582,6 +588,24 @@
           "0":"CONTINUAR",
           "1":"2022 Todos los derechos reservados"
         },
+        "HomepanelData":[
+          {
+            "id": 0,
+            "name": "Recomendado"
+          },
+          {
+            "id": 1,
+            "name": "Liderazgo"
+          },
+          {
+            "id": 2,
+            "name": "RSC"
+          },
+          {
+            "id": 3,
+            "name": "Sustentabilidad"
+          }
+        ],
         "home":
         {
             "0": "Nuestras historias",
@@ -953,6 +977,24 @@
           "0":"PROCÉDER",
           "1":"2022 Tous droits réservés"
         },
+        "HomepanelData":[
+          {
+            "id": 0,
+            "name": "Recommandé"
+          },
+          {
+            "id": 1,
+            "name": "Leadership"
+          },
+          {
+            "id": 2,
+            "name": "RSE"
+          },
+          {
+            "id": 3,
+            "name": "Durabilité"
+          }
+        ],
         "home":
         {
             "0": "Nos histoires",
@@ -1324,6 +1366,25 @@
           "0":"继续",
           "1":"2022 版权所有"
         },
+        "HomepanelData":
+        [
+          {
+            "id": 0,
+            "name": "推荐的"
+          },
+          {
+            "id": 1,
+            "name": "领导"
+          },
+          {
+            "id": 2,
+            "name": "企业社会责任"
+          },
+          {
+            "id": 3,
+            "name": "可持续性"
+          }
+        ],
         "home":
         {
             "0": "我们的故事",
@@ -1694,6 +1755,25 @@
           "0":"ПРОДОЛЖИТЬ",
           "1":"2022 Все права защищены"
         },
+        "HomepanelData":
+        [
+          {
+            "id": 0,
+            "name": "рекомендуемые"
+          },
+          {
+            "id": 1,
+            "name": "Лидерство"
+          },
+          {
+            "id": 2,
+            "name": "КСО"
+          },
+          {
+            "id": 3,
+            "name": "устойчивость"
+          }
+        ],
         "home":
         {
             "0": "Наши истории",
@@ -2065,6 +2145,25 @@
           "0":"VERLAUFEN",
           "1":"2022 Alle Rechte vorbehalten"
         },
+        "HomepanelData":
+        [
+          {
+            "id": 0,
+            "name": "Empfohlen"
+          },
+          {
+            "id": 1,
+            "name": "Führung"
+          },
+          {
+            "id": 2,
+            "name": "CSR"
+          },
+          {
+            "id": 3,
+            "name": "Nachhaltigkeit"
+          }
+        ],
         "home":
         {
             "0": "Unsere Geschichten",
@@ -2436,6 +2535,25 @@
           "0":"CONTINUAR",
           "1":"2022 Todos os direitos reservados"
         },
+        "HomepanelData":
+        [
+          {
+            "id": 0,
+            "name": "Recomendado"
+          },
+          {
+            "id": 1,
+            "name": "Liderança"
+          },
+          {
+            "id": 2,
+            "name": "CSR"
+          },
+          {
+            "id": 3,
+            "name": "Sustentabilidade"
+          }
+        ],
         "home":
         {
             "0": "Nossas histórias",
@@ -2807,6 +2925,25 @@
           "0":"続行",
           "1":"2022 無断複写・転載を禁じます"
         },
+        "HomepanelData":
+        [
+          {
+            "id": 0,
+            "name": "おすすめされた"
+          },
+          {
+            "id": 1,
+            "name": "リーダーシップ"
+          },
+          {
+            "id": 2,
+            "name": "CSR"
+          },
+          {
+            "id": 3,
+            "name": "持続可能性"
+          }
+        ],
         "home":
         {
             "0": "私たちのストーリー",
@@ -3178,6 +3315,25 @@
           "0":"आगे बढ़ना",
           "1":"2022 सर्वाधिकार सुरक्षित"
         },
+        "HomepanelData":
+        [
+          {
+            "id": 0,
+            "name": "अनुशंसित"
+          },
+          {
+            "id": 1,
+            "name": "नेतृत्व"
+          },
+          {
+            "id": 2,
+            "name": "सीएसआर"
+          },
+          {
+            "id": 3,
+            "name": "वहनीयता"
+          }
+        ],
         "home":
         {
             "0": "हमारी कहानियाँ",
