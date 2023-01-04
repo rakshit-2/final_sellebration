@@ -497,12 +497,12 @@ TJO.init({
 
 
 var ele=
-[
-  {"id":0,"name":"Recommended"},
-  {"id":1,"name":"Leadership"},
-  {"id":2,"name":"CSR"},
-  {"id":3,"name":"Sustainability"}
-]
+["About Us","Our Profile","Leadership","Women Leaders","Vision&Values",
+                    "Milestones","Businesses & Brands","Sustainability","CSR",
+                    "CSR At Sellebration","Bringing The Change","Our Strategy",
+                    "Stories of Hope","CSR Policy","Media","Media Releases","Media Reports",
+                    "Stories","Events","Downloads","Our Logo","Innovation","Investors",
+                    "Careers","Contact Us"]
 
 const createJson=(query,name,lang)=>
 {

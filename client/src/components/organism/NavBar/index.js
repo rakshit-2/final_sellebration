@@ -130,7 +130,7 @@ const NavBar=(props)=>{
     }
   return (
     <>
-    <NavPanel navDisplay={props.navDisplay} closeNav={props.closeNav} closeNavClicked={closeNavClicked}/>
+    <NavPanel navDisplay={props.navDisplay} closeNav={props.closeNav} closeNavClicked={closeNavClicked} lang={props.lang}/>
     <div className="navbar__outer" id="navbar">
       <div className="navbar__inner">
 

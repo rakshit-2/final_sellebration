@@ -1,5 +1,6 @@
 import './index.css';
 import items from './../../assets/store/NavData'
+import staticModel from './../../assets/store/staticModel.json'
 import NavLocatorEach from './../../atom/NavLocatorEach/index'
 
 
@@ -8,7 +9,7 @@ const NavLocator=(props)=>{
     <>
     <div className='navlocator__outer'>
       <div className='navlocator__inner'>
-              {items.map((item) => {
+              {staticModel[props.lang].navbar.map((item) => {
                   const {id,heading,data,icon}=item;
                   if(id===1)
                   {
@@ -21,7 +22,7 @@ const NavLocator=(props)=>{
                             <div className="navlocator__white__line__outer">
                                 <div className="navlocator__white__line"></div>
                             </div>
-                            <NavLocatorEach closeNav={props.closeNav} data={data} index={id} closeNavClicked={props.closeNavClicked}/>
+                            <NavLocatorEach closeNav={props.closeNav} data={data} index={id} closeNavClicked={props.closeNavClicked} lang={props.lang}/>
                         </div>
                         <div className='navlocator__white__line__nav'>
                         </div>

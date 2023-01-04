@@ -3,6 +3,65 @@
 {
     "english":
     {
+        "navbar":
+        [
+          {
+              "id":0,
+              "heading":"About Us",
+              "data":[
+                  {"id":0,"info":"Our Profile"},
+                  {"id":1,"info":"Leadership"},
+                  {"id":2,"info":"Women Leaders"},
+                  {"id":3,"info":"Vision&Values"},
+                  {"id":4,"info":"Milestones"}
+              ],
+              "icon":[""]
+          },
+          {
+              "id":1,
+              "heading":"Businesses & Brands",
+              "data":[
+                  {"id":0,"info":"Sustainability"}
+              ],
+              "icon":[""]
+          },
+          {
+              "id":2,
+              "heading":"CSR",
+              "data":[
+                  {"id":0,"info":"CSR At Sellebration"},
+                  {"id":1,"info":"Bringing The Change"},
+                  {"id":2,"info":"Our Strategy"},
+                  {"id":3,"info":"Stories of Hope"},
+                  {"id":4,"info":"CSR Policy"}
+              ],
+              "icon":[""]
+          },
+          {
+              "id":3,
+              "heading":"Media",
+              "data":[
+                  {"id":0,"info":"Media Releases"},
+                  {"id":1,"info":"Media Reports"},
+                  {"id":2,"info":"Stories"},
+                  {"id":3,"info":"Events"},
+                  {"id":4,"info":"Downloads"},
+                  {"id":5,"info":"Our Logo"}
+              ],
+              "icon":[""]
+          },
+          {
+              "id":4,
+              "heading":"",
+              "data":[
+                  {"id":0,"info":"Innovation"},
+                  {"id":1,"info":"Investors"},
+                  {"id":2,"info":"Careers"},
+                  {"id":3,"info":"Contact Us"}
+              ],
+              "icon":[""]
+          }
+      ],
         "footer":
         {
           "top":{
@@ -513,6 +572,135 @@
         ]
     },
     "spanish":{ 
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "Sobre nosotros",
+            "data": [
+              {
+                "id": 0,
+                "info": "Nuestro perfil"
+              },
+              {
+                "id": 1,
+                "info": "Liderazgo"
+              },
+              {
+                "id": 2,
+                "info": "Mujeres Líderes"
+              },
+              {
+                "id": 3,
+                "info": "Visión y Valores"
+              },
+              {
+                "id": 4,
+                "info": "Hitos"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "Negocios y Marcas",
+            "data": [
+              {
+                "id": 0,
+                "info": "Sustentabilidad"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "RSE",
+            "data": [
+              {
+                "id": 0,
+                "info": "RSC en Sellebration"
+              },
+              {
+                "id": 1,
+                "info": "Trayendo el cambio"
+              },
+              {
+                "id": 2,
+                "info": "Nuestra estrategia"
+              },
+              {
+                "id": 3,
+                "info": "Historias de esperanza"
+              },
+              {
+                "id": 4,
+                "info": "Política de RSC"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "Medios de comunicación",
+            "data": [
+              {
+                "id": 0,
+                "info": "comunicados de prensa"
+              },
+              {
+                "id": 1,
+                "info": "Informes de los medios"
+              },
+              {
+                "id": 2,
+                "info": "Cuentos"
+              },
+              {
+                "id": 3,
+                "info": "Eventos"
+              },
+              {
+                "id": 4,
+                "info": "Descargas"
+              },
+              {
+                "id": 5,
+                "info": "Nuestro logotipo"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "Innovación"
+              },
+              {
+                "id": 1,
+                "info": "inversores"
+              },
+              {
+                "id": 2,
+                "info": "Carreras"
+              },
+              {
+                "id": 3,
+                "info": "Contáctenos"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
@@ -903,6 +1091,135 @@
           ]
     },
     "french":{
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "À propos de nous",
+            "data": [
+              {
+                "id": 0,
+                "info": "Notre profil"
+              },
+              {
+                "id": 1,
+                "info": "Leadership"
+              },
+              {
+                "id": 2,
+                "info": "Femmes dirigeantes"
+              },
+              {
+                "id": 3,
+                "info": "Vision&Valeurs"
+              },
+              {
+                "id": 4,
+                "info": "Jalons"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "Entreprises & Marques",
+            "data": [
+              {
+                "id": 0,
+                "info": "Durabilité"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "RSE",
+            "data": [
+              {
+                "id": 0,
+                "info": "La RSE chez Sellebration"
+              },
+              {
+                "id": 1,
+                "info": "Apporter le changement"
+              },
+              {
+                "id": 2,
+                "info": "Notre stratégie"
+              },
+              {
+                "id": 3,
+                "info": "Histoires d'espoir"
+              },
+              {
+                "id": 4,
+                "info": "Politique RSE"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "Médias",
+            "data": [
+              {
+                "id": 0,
+                "info": "Communiqués de presse"
+              },
+              {
+                "id": 1,
+                "info": "Rapports des médias"
+              },
+              {
+                "id": 2,
+                "info": "Histoires"
+              },
+              {
+                "id": 3,
+                "info": "Événements"
+              },
+              {
+                "id": 4,
+                "info": "Téléchargements"
+              },
+              {
+                "id": 5,
+                "info": "Notre logo"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "Innovation"
+              },
+              {
+                "id": 1,
+                "info": "Investisseurs"
+              },
+              {
+                "id": 2,
+                "info": "Carrières"
+              },
+              {
+                "id": 3,
+                "info": "Nous contacter"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
@@ -1292,6 +1609,135 @@
           ]
     },
     "chinese":{
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "关于我们",
+            "data": [
+              {
+                "id": 0,
+                "info": "我们的简介"
+              },
+              {
+                "id": 1,
+                "info": "领导"
+              },
+              {
+                "id": 2,
+                "info": "女性领袖"
+              },
+              {
+                "id": 3,
+                "info": "愿景与价值观"
+              },
+              {
+                "id": 4,
+                "info": "里程碑"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "企业与品牌",
+            "data": [
+              {
+                "id": 0,
+                "info": "可持续性"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "企业社会责任",
+            "data": [
+              {
+                "id": 0,
+                "info": "企业社会责任"
+              },
+              {
+                "id": 1,
+                "info": "带来改变"
+              },
+              {
+                "id": 2,
+                "info": "我们的战略"
+              },
+              {
+                "id": 3,
+                "info": "希望的故事"
+              },
+              {
+                "id": 4,
+                "info": "企业社会责任政策"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "媒体",
+            "data": [
+              {
+                "id": 0,
+                "info": "媒体发布"
+              },
+              {
+                "id": 1,
+                "info": "媒体报道"
+              },
+              {
+                "id": 2,
+                "info": "故事"
+              },
+              {
+                "id": 3,
+                "info": "事件"
+              },
+              {
+                "id": 4,
+                "info": "下载"
+              },
+              {
+                "id": 5,
+                "info": "我们的标志"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "创新"
+              },
+              {
+                "id": 1,
+                "info": "投资者"
+              },
+              {
+                "id": 2,
+                "info": "招贤纳士"
+              },
+              {
+                "id": 3,
+                "info": "联系我们"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
@@ -1681,6 +2127,135 @@
         ]
     },
     "russian":{
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "О нас",
+            "data": [
+              {
+                "id": 0,
+                "info": "Наш профиль"
+              },
+              {
+                "id": 1,
+                "info": "Лидерство"
+              },
+              {
+                "id": 2,
+                "info": "Женщины-лидеры"
+              },
+              {
+                "id": 3,
+                "info": "Видение и ценности"
+              },
+              {
+                "id": 4,
+                "info": "Вехи"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "Компании и бренды",
+            "data": [
+              {
+                "id": 0,
+                "info": "устойчивость"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "КСО",
+            "data": [
+              {
+                "id": 0,
+                "info": "CSR в Sellebration"
+              },
+              {
+                "id": 1,
+                "info": "Внесение изменений"
+              },
+              {
+                "id": 2,
+                "info": "Наша стратегия"
+              },
+              {
+                "id": 3,
+                "info": "Истории надежды"
+              },
+              {
+                "id": 4,
+                "info": "Политика КСО"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "СМИ",
+            "data": [
+              {
+                "id": 0,
+                "info": "Пресс-релизы"
+              },
+              {
+                "id": 1,
+                "info": "СМИ"
+              },
+              {
+                "id": 2,
+                "info": "Рассказы"
+              },
+              {
+                "id": 3,
+                "info": "События"
+              },
+              {
+                "id": 4,
+                "info": "Загрузки"
+              },
+              {
+                "id": 5,
+                "info": "Наш логотип"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "Инновации"
+              },
+              {
+                "id": 1,
+                "info": "Инвесторы"
+              },
+              {
+                "id": 2,
+                "info": "Карьера"
+              },
+              {
+                "id": 3,
+                "info": "Связаться с нами"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
@@ -2071,6 +2646,135 @@
           ]
     },
     "german":{
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "Über uns",
+            "data": [
+              {
+                "id": 0,
+                "info": "Unser Profil"
+              },
+              {
+                "id": 1,
+                "info": "Führung"
+              },
+              {
+                "id": 2,
+                "info": "Weibliche Führungskräfte"
+              },
+              {
+                "id": 3,
+                "info": "Vision&Werte"
+              },
+              {
+                "id": 4,
+                "info": "Meilensteine"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "Unternehmen & Marken",
+            "data": [
+              {
+                "id": 0,
+                "info": "Nachhaltigkeit"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "CSR",
+            "data": [
+              {
+                "id": 0,
+                "info": "CSR bei Sellebration"
+              },
+              {
+                "id": 1,
+                "info": "Die Veränderung bringen"
+              },
+              {
+                "id": 2,
+                "info": "Unsere Strategie"
+              },
+              {
+                "id": 3,
+                "info": "Geschichten der Hoffnung"
+              },
+              {
+                "id": 4,
+                "info": "CSR-Richtlinie"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "Medien",
+            "data": [
+              {
+                "id": 0,
+                "info": "Medienmitteilungen"
+              },
+              {
+                "id": 1,
+                "info": "Medienberichte"
+              },
+              {
+                "id": 2,
+                "info": "Geschichten"
+              },
+              {
+                "id": 3,
+                "info": "Veranstaltungen"
+              },
+              {
+                "id": 4,
+                "info": "Downloads"
+              },
+              {
+                "id": 5,
+                "info": "Unser Logo"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "Innovation"
+              },
+              {
+                "id": 1,
+                "info": "Investoren"
+              },
+              {
+                "id": 2,
+                "info": "Karriere"
+              },
+              {
+                "id": 3,
+                "info": "Kontaktiere uns"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
@@ -2461,6 +3165,135 @@
           ]
     },
     "portuguese":{
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "Sobre nós",
+            "data": [
+              {
+                "id": 0,
+                "info": "Nosso Perfil"
+              },
+              {
+                "id": 1,
+                "info": "Liderança"
+              },
+              {
+                "id": 2,
+                "info": "mulheres líderes"
+              },
+              {
+                "id": 3,
+                "info": "Visão&Valores"
+              },
+              {
+                "id": 4,
+                "info": "Conquistas"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "Negócios e Marcas",
+            "data": [
+              {
+                "id": 0,
+                "info": "Sustentabilidade"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "CSR",
+            "data": [
+              {
+                "id": 0,
+                "info": "CSR na Sellebration"
+              },
+              {
+                "id": 1,
+                "info": "Trazendo a mudança"
+              },
+              {
+                "id": 2,
+                "info": "Nossa Estratégia"
+              },
+              {
+                "id": 3,
+                "info": "histórias de esperança"
+              },
+              {
+                "id": 4,
+                "info": "Política de RSE"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "meios de comunicação",
+            "data": [
+              {
+                "id": 0,
+                "info": "Comunicados de mídia"
+              },
+              {
+                "id": 1,
+                "info": "Relatórios de mídia"
+              },
+              {
+                "id": 2,
+                "info": "Histórias"
+              },
+              {
+                "id": 3,
+                "info": "Eventos"
+              },
+              {
+                "id": 4,
+                "info": "Transferências"
+              },
+              {
+                "id": 5,
+                "info": "Nosso logotipo"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "Inovação"
+              },
+              {
+                "id": 1,
+                "info": "investidores"
+              },
+              {
+                "id": 2,
+                "info": "Carreiras"
+              },
+              {
+                "id": 3,
+                "info": "Contate-nos"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
@@ -2851,6 +3684,135 @@
           ]
     },
     "japnese":{
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "私たちに関しては",
+            "data": [
+              {
+                "id": 0,
+                "info": "私たちのプロフィール"
+              },
+              {
+                "id": 1,
+                "info": "リーダーシップ"
+              },
+              {
+                "id": 2,
+                "info": "女性リーダー"
+              },
+              {
+                "id": 3,
+                "info": "ビジョン＆バリュー"
+              },
+              {
+                "id": 4,
+                "info": "マイルストーン"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "事業とブランド",
+            "data": [
+              {
+                "id": 0,
+                "info": "持続可能性"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "CSR",
+            "data": [
+              {
+                "id": 0,
+                "info": "セレブでのCSR"
+              },
+              {
+                "id": 1,
+                "info": "変化をもたらす"
+              },
+              {
+                "id": 2,
+                "info": "私たちの戦略"
+              },
+              {
+                "id": 3,
+                "info": "希望の物語"
+              },
+              {
+                "id": 4,
+                "info": "CSR方針"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "メディア",
+            "data": [
+              {
+                "id": 0,
+                "info": "メディアリリース"
+              },
+              {
+                "id": 1,
+                "info": "メディア報道"
+              },
+              {
+                "id": 2,
+                "info": "ストーリー"
+              },
+              {
+                "id": 3,
+                "info": "イベント"
+              },
+              {
+                "id": 4,
+                "info": "ダウンロード"
+              },
+              {
+                "id": 5,
+                "info": "私たちのロゴ"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "革新"
+              },
+              {
+                "id": 1,
+                "info": "投資家"
+              },
+              {
+                "id": 2,
+                "info": "キャリア"
+              },
+              {
+                "id": 3,
+                "info": "お問い合わせ"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
@@ -3241,6 +4203,135 @@
           ]
     },
     "hindi":{
+        "navbar":
+        [
+          {
+            "id": 0,
+            "heading": "हमारे बारे में",
+            "data": [
+              {
+                "id": 0,
+                "info": "हमारी प्रोफ़ाइल"
+              },
+              {
+                "id": 1,
+                "info": "नेतृत्व"
+              },
+              {
+                "id": 2,
+                "info": "महिला नेता"
+              },
+              {
+                "id": 3,
+                "info": "दृष्टि और मूल्य"
+              },
+              {
+                "id": 4,
+                "info": "मील के पत्थर"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 1,
+            "heading": "व्यवसाय और ब्रांड",
+            "data": [
+              {
+                "id": 0,
+                "info": "वहनीयता"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 2,
+            "heading": "सीएसआर",
+            "data": [
+              {
+                "id": 0,
+                "info": "सेलब्रेशन में सीएसआर"
+              },
+              {
+                "id": 1,
+                "info": "परिवर्तन लाना"
+              },
+              {
+                "id": 2,
+                "info": "हमारी रणनीति"
+              },
+              {
+                "id": 3,
+                "info": "आशा की कहानियाँ"
+              },
+              {
+                "id": 4,
+                "info": "सीएसआर नीति"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 3,
+            "heading": "मीडिया",
+            "data": [
+              {
+                "id": 0,
+                "info": "मीडिया विज्ञप्तियां"
+              },
+              {
+                "id": 1,
+                "info": "मीडिया रिपोर्ट्स"
+              },
+              {
+                "id": 2,
+                "info": "कहानियों"
+              },
+              {
+                "id": 3,
+                "info": "आयोजन"
+              },
+              {
+                "id": 4,
+                "info": "डाउनलोड"
+              },
+              {
+                "id": 5,
+                "info": "हमारा लोगो"
+              }
+            ],
+            "icon": [
+              ""
+            ]
+          },
+          {
+            "id": 4,
+            "heading": "",
+            "data": [
+              {
+                "id": 0,
+                "info": "नवाचार"
+              },
+              {
+                "id": 1,
+                "info": "निवेशकों"
+              },
+              {
+                "id": 2,
+                "info": "करियर"
+              },
+              {
+                "id": 3,
+                "info": "संपर्क करें"
+              }
+            ]
+          }
+        ],
         "footer":
         {
           "top": {
