@@ -5,7 +5,7 @@ return (
     <>
     <div key={props.id} className='homecard3__left__inner'>
         <div className='homecard3__left__inner__img'>
-    aasdas
+            <img src={props.img} style={{width:"100%",height:"100%"}} alt="twitter_img"/>
         </div>
         <div className='homecard3__left__inner__time'>
             {props.time}

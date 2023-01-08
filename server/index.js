@@ -480,6 +480,43 @@ const all_eng=[
 // const test = require('./../client/src/components/assets/store/LeadershipData.js');
 
 
+var Twitter = require('twitter');
+ 
+var client = new Twitter({
+  consumer_key: db_file.db_consumer_key,
+  consumer_secret: db_file.db_consumer_secret,
+  access_token_key: db_file.db_access_token_key,
+  access_token_secret: db_file.db_access_token_secret
+});
+ 
+
+app.post('/tweet-test', (req, res) => {
+  var val=req.body.val;
+  if (val)
+  {
+    var params = 
+    {
+      screen_name: 'SellebrationLtd',
+      exclude_replies: true,
+      include_rts: false,
+      count: 10,
+      tweet_mode: "extended",
+    };
+    client.get('statuses/user_timeline', params, function(error, tweets, resp) {
+      if (!error) {
+        var li=[];
+  
+        for(var i=0;i<tweets.length;i++)
+        {
+          li.push({"id":i,"date":tweets[i].created_at,"text":tweets[i].full_text,"img":tweets[i].entities.media[0].media_url})
+        }
+        res.send(li)
+      }
+    });
+  }
+  
+})
+
 
 
 
@@ -952,7 +989,7 @@ app.get('/captcha',(req,res)=>{
 //contact us data update
 // ContactUs
 
-console.log()
+// console.log()
 
 
 

@@ -21,6 +21,8 @@ import Footer from './../../molecule/footer/index';
 import Navbar from './../NavBar/index';
 import LoadingScreen from './../../atom/loadingScreen/index'
 
+
+
 const Home=(props)=>{
 
 
@@ -29,6 +31,7 @@ const Home=(props)=>{
   // scroll to top
 
   useEffect(() => {
+    getTwitter();
     window.scrollTo(0, 0);
   }, []);
 
@@ -41,7 +44,7 @@ const Home=(props)=>{
 
     const[latestNews,setLatestNews]=useState([<></>])
 
-
+    const[twitterData,setTwitterData]=useState([<></>])
 
     const li=[recommended,leadership,csr,sustainability];
 
@@ -50,6 +53,20 @@ const Home=(props)=>{
 
     const[loadingOurStories,setLoadingOurStories]=useState(true);
     const[loadingLatestNews,setLoadingLatestNews]=useState(true)
+    const[loadingTwitter,setLoadingTwitter]=useState(true)
+
+    function getTwitter()
+    {
+        Axios.post(ApiLink+'/tweet-test',
+        {
+            val:true,
+        }).then((res)=>{
+            setTwitterData(res.data);
+            setLoadingTwitter(false);
+        })
+    }
+
+
 
     function getterOurStories(x,i)
     {
@@ -305,14 +322,25 @@ const Home=(props)=>{
                         <div className='home__inner__section4__left' data-aos="fade-right">
                             <img src={twitter} className="home__inner__section4__img"  alt="twitter"/>
                             <div className='home__inner__section4__left__out'>
-                                {HomeNewsData.map((ele) => {
-                                    const {id,time,info}=ele;
-                                    return(
-                                        <>
-                                            <HomeCard3 id={id} time={time} info={info}  />
-                                        </>
+                                {
+                                     
+                                    loadingTwitter ? (
+                                        <div className='loading__outer'>
+                                            <LoadingScreen/>    
+                                        </div>
+                                        
+                                    ):(
+                                        twitterData.map((ele) => {
+                                            const {id,date,text,img}=ele;
+        
+                                            return(
+                                                <>
+                                                    <HomeCard3 id={id} time={date} info={text} img={img} />
+                                                </>
+                                            )
+                                        })
                                     )
-                                })}
+                                }
                             </div>
                         </div>
                         <div className='home__inner__section4__left' data-aos="fade-left">
