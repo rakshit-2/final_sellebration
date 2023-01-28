@@ -8,7 +8,7 @@ import CardType3 from '../../atom/cardType3';
 import Footer from './../../molecule/footer/index';
 import Carousel from "react-multi-carousel";
 import { useNavigate,useLocation } from 'react-router-dom';
-
+import staticModel from './../../assets/store/staticModel.json'
 
 
 const OurProfile=(props)=>{
@@ -19,7 +19,6 @@ const OurProfile=(props)=>{
   useEffect(() => {
     window.scrollTo(0, 0);
 }, []);
-
 
 
   const responsive = {
@@ -49,21 +48,13 @@ const OurProfile=(props)=>{
                 <div className="OurProfile__about">
                   <div className="OurProfile__about__left"  data-aos="fade-right">
                     <div className="OurProfile__about__heading">
-                      About Us
+                    {staticModel[props.lang].ourProfile.smallHead0}
                     </div>
                     <div className="OurProfile__about__he">
-                      Our Profile
+                    {staticModel[props.lang].ourProfile.head0}
                     </div>
                     <div className="OurProfile__about__text">
-                      Lorem Ipsum is simply dummy text 
-                      of the printing and typesetting industry.
-                      Lorem Ipsum has been the industry's standard
-                      dummy text ever since the 1500s, when an 
-                      unknown printer took a galley of type and 
-                      scrambled it to make a type specimen book 
-                      and more recently with desktop publishing 
-                      software like Aldus PageMaker including 
-                      versions of Lorem Ipsum
+                    {staticModel[props.lang].ourProfile.text0}
                     </div>
                   </div>
                   <div className="OurProfile__about__right__inner"  data-aos="fade-left">
@@ -75,7 +66,7 @@ const OurProfile=(props)=>{
                 </div>
                 <div className="OurProfile__center__display">
                   <div className="OurProfile__center__head">
-                      Our Values
+                  {staticModel[props.lang].ourProfile.head1}
                   </div>
                   <div className='OurProfile__inner__inner'>
                     <div className="OurProfile__center__list"  data-aos="fade-up">
@@ -110,7 +101,7 @@ const OurProfile=(props)=>{
     
                 <div className="OurProfile__team">
                     <div className="OurProfile__team__heading">
-                        Our team
+                    {staticModel[props.lang].ourProfile.head2}
                     </div>
                     <div className="OurProfile__team__card"  data-aos="fade-up">
                     {items.ourTeam.map((ele) => {
@@ -141,7 +132,7 @@ const OurProfile=(props)=>{
                 </div>
                 <div className="OurProfile__team__leaderboad">
                   <div className="OurProfile__team__leaderboad__button" onClick={()=>{navigate('/leadership')}}>
-                    View Leadership
+                  {staticModel[props.lang].ourProfile.button1}
                   </div>
                 </div>
               </div>

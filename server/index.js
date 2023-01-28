@@ -481,6 +481,7 @@ const all_eng=[
 
 
 var Twitter = require('twitter');
+const { PassThrough } = require('stream');
  
 var client = new Twitter({
   consumer_key: db_file.db_consumer_key,
@@ -505,10 +506,20 @@ app.post('/tweet-test', (req, res) => {
     client.get('statuses/user_timeline', params, function(error, tweets, resp) {
       if (!error) {
         var li=[];
-  
+        
         for(var i=0;i<tweets.length;i++)
         {
-          li.push({"id":i,"date":tweets[i].created_at,"text":tweets[i].full_text,"img":tweets[i].entities.media[0].media_url})
+          var image_get="";
+          try
+          {
+            image_get=tweets[i].entities.media[0].media_url;
+          }
+          catch (err)
+          {
+            console.log("Tweet Without Image")
+          }
+
+          li.push({"id":i,"date":tweets[i].created_at,"text":tweets[i].full_text,"img":image_get})
         }
         res.send(li)
       }
@@ -534,12 +545,14 @@ TJO.init({
 
 
 var ele=
-["About Us","Our Profile","Leadership","Women Leaders","Vision&Values",
-                    "Milestones","Businesses & Brands","Sustainability","CSR",
-                    "CSR At Sellebration","Bringing The Change","Our Strategy",
-                    "Stories of Hope","CSR Policy","Media","Media Releases","Media Reports",
-                    "Stories","Events","Downloads","Our Logo","Innovation","Investors",
-                    "Careers","Contact Us"]
+{
+  "smallHead0":"About Us",
+  "head0":"Our Profile",
+  "text0":"India, being a developing country has been battling with employability issues for years, because of high population density and sluggish economic growth. Students are put under a lot of pressure because of the fierce competition. After realising the necessity  of generating jobs rather of seeking them out, we at Sellebration have therefore initiated this effort to provide equal opportunities for everyone so that we can build a better future for both ourselves as well as our upcoming generations . We are a group of college students attempting to provide great customer service in order to improve everyone's quality of life. Additionally, we are devoted to assisting and influencing female entrepreneurs. Our motto, 'Vocal for Local', encourages us to empower every voice and support the right candidate.",
+  "head1":"Our Values",
+  "head2":"Our team",
+  "button1":"View Leadership"
+}
 
 const createJson=(query,name,lang)=>
 {
