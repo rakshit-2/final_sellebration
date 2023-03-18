@@ -151,6 +151,11 @@ return (
                     </HashLink>
                 </div>
             </div>
+            <div className='leadership__inner__inner'>
+                <div className='leadership__inner__inner__heading_text'>
+                    {staticModale[props.lang].leadership[11]}
+                </div>
+            </div>
             
             <div className='leadership__inner__seaction2'>
                 {LeadershipPanelData.map((ele)=>{
