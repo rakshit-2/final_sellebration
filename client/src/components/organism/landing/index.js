@@ -9,10 +9,52 @@ import Autocomplete from '@mui/material/Autocomplete';
 import { useNavigate  } from 'react-router-dom';
 import StaticModel from './../../assets/store/staticModel.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+import { faCopyright } from '@fortawesome/free-regular-svg-icons';
+import Axios from 'axios';
 
 const Landing=(props)=>{
       // scroll to top
+
+
+    //   instagramPhotos()
+    //   async function instagramPhotos () {
+    //     // It will contain our photos' links
+    //     const res = []
+        
+    //     try {
+    //         Axios.get("https://www.instagram.com/sellebrationLtd/",
+    //         {
+    //             hello:"sadas",
+
+    //         }).then((res)=>{
+    //             console.log(res)
+    //         })
+    //         // const userInfoSource = await Axios.get('https://www.instagram.com/sellebrationLtd/')
+    
+    //         // // userInfoSource.data contains the HTML from Axios
+    //         // const jsonObject = userInfoSource.data.match(/<script type="text\/javascript">window\._sharedData = (.*)<\/script>/)[1].slice(0, -1)
+    
+    //         // const userInfo = JSON.parse(jsonObject)
+    //         // // Retrieve only the first 10 results
+    //         // const mediaArray = userInfo.entry_data.ProfilePage[0].graphql.user.edge_owner_to_timeline_media.edges.splice(0, 10)
+    //         // for (let media of mediaArray) {
+    //         //     const node = media.node
+                
+    //         //     // Process only if is an image
+    //         //     if ((node.__typename && node.__typename !== 'GraphImage')) {
+    //         //         continue
+    //         //     }
+    
+    //         //     // Push the thumbnail src in the array
+    //         //     res.push(node.thumbnail_src)
+    //     } catch (e) {
+    //         console.error('Unable to retrieve photos. Reason: ' + e.toString())
+    //     }
+        
+    //     console.log(res)
+    // }
+
+
       const navigate = useNavigate();
     useEffect(() => {
         window.scrollTo(0, 0);

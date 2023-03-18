@@ -2,8 +2,9 @@ import Navbar from './../NavBar/index';
 import './index.css';
 import { useEffect } from 'react';
 import CardType2 from '../../atom/cardType2';
-import items from './../../assets/store/OurProfileData.js';
-import logo from './../../assets/image/test.png';
+// import items from './../../assets/store/OurProfileData.js';
+// import Ourprofile_ourvalues from './../../assets/store/staticModel.json';
+import logo from './../../assets/image/ourprofile_main.jpg';
 import CardType3 from '../../atom/cardType3';
 import Footer from './../../molecule/footer/index';
 import Carousel from "react-multi-carousel";
@@ -70,7 +71,7 @@ const OurProfile=(props)=>{
                   </div>
                   <div className='OurProfile__inner__inner'>
                     <div className="OurProfile__center__list"  data-aos="fade-up">
-                      {items.ourValues.map((ele) => {
+                      {staticModel[props.lang].ourprofile_ourvalues.ourValues.map((ele) => {
                         const {id,name,info,img}=ele;
                         return(
                           <CardType2 id={id} name={name} info={info} img={img}/>
@@ -87,7 +88,7 @@ const OurProfile=(props)=>{
                         infinite
                         showDots={true}
                         removeArrowOnDeviceType={["tablet", "mobile","desktop"]}>
-                        {items.ourValues.map((ele) => {
+                        {staticModel[props.lang].ourprofile_ourvalues.ourValues.map((ele) => {
                           const {id,name,info,img}=ele;
                           return(
                             <CardType2 id={id} name={name} info={info} img={img}/>
@@ -104,7 +105,7 @@ const OurProfile=(props)=>{
                     {staticModel[props.lang].ourProfile.head2}
                     </div>
                     <div className="OurProfile__team__card"  data-aos="fade-up">
-                    {items.ourTeam.map((ele) => {
+                    {staticModel[props.lang].ourprofile_ourvalues.ourTeam.map((ele) => {
                         const {id,name,job,img}=ele;
                         return(
                           <CardType3 id={id} name={name} job={job} img={img}/>
@@ -121,7 +122,7 @@ const OurProfile=(props)=>{
                         infinite
                         showDots={true}
                         removeArrowOnDeviceType={["tablet", "mobile","desktop"]}>
-                        {items.ourTeam.map((ele) => {
+                        {staticModel[props.lang].ourprofile_ourvalues.ourTeam.map((ele) => {
                           const {id,name,job,img}=ele;
                           return(
                             <CardType3 id={id} name={name} job={job} img={img}/>

@@ -13,6 +13,21 @@
           "head2":"Our team",
           "button1":"View Leadership"
         },
+        "ourprofile_ourvalues":
+        {
+          "ourValues":[
+            {"id":0,"name":"Honesty","img":"honestly.jpg","info":"We, at Sellebration, make sure that we are true about our identity, our desires, and what we perform by valuing honesty as a core value and understanding the need for respect and trust between people. This helps us in strengthening our relationship with our stakeholders, customers, and employees."},
+             {"id":1,"name":"Innovation","img":"innovation.jpg","info":"Sellebration is empowered and encouraged to identify, develop, and deploy: Technologies, products, ideas, processes, and improvements. We promote collaboration and sharing of ideas that bring real value to our customers."},
+            {"id":2,"name":"Commitment","img":"commitement.jpg","info":"We want to provide excellent service to our customers, so we hold our crew members and all other members of our association accountable for their actions and decisions. Additionally, we are completely committed to our work, which motivates us to overcome obstacles in our path."},
+            {"id":3,"name":"Passion","img":"passion.jpg","info":"We at Sellebration work with zeal and motivation, and what motivates each of us to give our best is Passion. We take pleasure in our job and achieve the highest quality standards because we are passionate about what we do."}
+          ],
+          "ourTeam":[
+              {"id":0,"name":"Rahul","job":"CEO","img":"honestly.jpg"},
+              {"id":1,"name":"Samarth","job":"Dev","img":"innovation.jpg"},
+              {"id":2,"name":"Rakshit","job":"Dev","img":"commitement.jpg"},
+              {"id":3,"name":"Rahul","job":"CEO","img":"passion.jpg"}
+          ]
+        },
         "navbar":
         [
           {

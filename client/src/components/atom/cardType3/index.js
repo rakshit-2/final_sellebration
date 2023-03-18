@@ -10,7 +10,7 @@ const CardType3=(props)=>{
             {props.name}
         </div>
         <div className="cardtype3__team__card__pic">
-        <img src={props.img} className="cardtype3__team__card__pic__img"/>
+        <img src={require("./../../assets/image/"+props.img)} className="cardtype3__team__card__pic__img"/>
         </div>
     </div>
   );
